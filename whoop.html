@@ -1,0 +1,38 @@
+<head>
+  <title>whoop</title>
+</head>
+
+<body>
+  <h1>Whoop chat</h1>
+
+  {{> chat}}
+
+</body>
+
+
+<!-- Start: Templates -->
+<template name="chat">
+  chat component
+
+  <ul>
+    {{#each readMessage}}
+      <li>{{owner}}</li>
+      <li>{{ts}}</li>
+      <li>{{text}}</li>
+      <br/>
+    {{/each}}
+  </ul>
+
+  <form>
+    <textarea name="msgText" placeholder="Type your message..."></textarea>
+
+    <input type="submit" name="msgSubmit" value="Send" class="send-button">
+    <label for="isTopic">
+      <input type="checkbox" name="isTopic" value="yes"/>
+      Make topic
+    </label>
+    <input type="input" name="topicField" placeholder="Enter #topics" class="{{status}}"/>
+  </form>
+</template>
+
+<!-- End: Templates -->

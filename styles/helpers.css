@@ -1,0 +1,44 @@
+/* Josef Pacal
+ * Programming Class 2015
+ */
+
+/* Start: Colors --------  */
+.color--sandstone      { color: #E9B789; }
+.color--chetwode--blue { color: #8C84E0; }
+.color--danube         { color: #5F93CA; }
+.color--olivine        { color: #67C59B; }
+.color--apricot        { color: #EB8868; }
+.color--casablanca     { color: #F5B547; }
+
+.bg--sandstone      { background-color: #E9B789; }
+.bg--chetwode--blue { background-color: #8C84E0; }
+.bg--danube         { background-color: #5F93CA; }
+.bg--olivine        { background-color: #67C59B; }
+.bg--apricot        { background-color: #EB8868; }
+.bg--casablanca     { background-color: #F5B547; }
+
+/* Start: Helpers --------  */
+.is--shown           { visibility: normal; }
+.is--hidden          { visibility: hidden; }
+.is--none            { display: none; }
+
+.is--block           { display: block; }
+.is--inline--block   { display: inline-block; }
+.is--inline          { display: inline; }
+.is--floating--left  { float: left; }
+.is--floating--right { float: right }
+.clear               { clear: both; }
+.has--border         { border: 1px solid; border-color: inherit;}
+.has--border--top    { border-top: 1px solid; border-color: inherit;}
+.has--border--bottom { border-bottom: 1px solid; border-color: inherit;}
+.no--border          { border: none;   }
+.is--centered        { margin: 0 auto;}
+
+.text--centered      { text-align: center; }
+.text--margin        { margin: 1em; }
+
+.is--fixed           { position: fixed; }
+.is--fixed--bottom   { position: fixed; bottom:0px; margin-right: auto; margin-left: auto; }
+
+.is--above           {z-index: 50}
+/* End: Helpers --------  */
